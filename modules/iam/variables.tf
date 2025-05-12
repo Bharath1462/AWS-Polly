@@ -1,4 +1,2 @@
-variable "s3_bucket_name" {
-  description = "The name of the S3 bucket"
-  type        = string
-}
+variable "input_bucket_arn" {}
+variable "output_bucket_arn" {}
